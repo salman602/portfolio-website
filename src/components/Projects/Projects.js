@@ -15,7 +15,7 @@ const Projects = () => {
                     <h2>Discover My Latest <span style={{ color: "#FEA770" }}>Projects</span></h2>
                     <h5 className="my-4">Successfully Completed websites</h5>
                 </div>
-                <Row xs={1} md={3} className="g-4">
+                <Row xs={1} sm={1} md={3} className="g-4">
 
                     {
                         projects.map(project => <Project

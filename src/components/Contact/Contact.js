@@ -23,7 +23,7 @@ const Contact = () => {
     return (
         <div id="contact" style={{ backgroundColor: '#F6F2ED' }}>
             <Container className="py-5">
-                <Row className="justify-content-center align-items-center">
+                <Row>
                     <Col sm={12} md={5}>
                         <h2 className="py-3">Keep in Touch</h2>
                         <h5><FontAwesomeIcon icon={faMobile} style={{ color: '#FEA770', fontSize: '2rem', marginRight: '0.5rem' }} /> Phone</h5>

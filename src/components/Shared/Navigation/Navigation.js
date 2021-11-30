@@ -18,15 +18,15 @@ const Navigation = () => {
                     <Nav>
                         <NavLink
                             to="/home"
-                            style={{ textDecoration: 'none', marginLeft: "0.5rem" }}
+                            style={{ textDecoration: 'none', fontWeight: 'bold', color: "#FEA770" }}
                         >Home</NavLink>
                         <NavHashLink
                             to="/home#about"
-                            style={{ textDecoration: 'none', marginLeft: "0.5rem" }}
+                            style={{ textDecoration: 'none', marginLeft: "1rem", fontWeight: 'bold', color: "#FEA770" }}
                         >About</NavHashLink>
                         <NavHashLink
                             to="/home#contact"
-                            style={{ textDecoration: 'none', marginLeft: "0.5rem" }}
+                            style={{ textDecoration: 'none', marginLeft: "1rem", fontWeight: 'bold', color: "#FEA770" }}
                         >Contact</NavHashLink>
                     </Nav>
                 </Navbar.Collapse>

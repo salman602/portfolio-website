@@ -5,7 +5,7 @@ import './Project.css';
 
 const Project = ({ project }) => {
     return (
-        <Col>
+        <Col className="mb-sm-5 pb-sm-3">
             <Card className="bg-dark text-white project">
                 <div className="img_box">
                     <Card.Img src={project.screenshots[0]} alt="Card image" className="project_img" height="500" />
