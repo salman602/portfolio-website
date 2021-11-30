@@ -10,7 +10,6 @@ const ProjectDetails = () => {
     const [isLoading, setIsLoading] = useState(true);
     const { projectId } = useParams();
     const [projects] = useProjects();
-    console.log(projects)
 
     useEffect(() => {
         const filteredProject = projects.filter(project => project?.id === projectId);

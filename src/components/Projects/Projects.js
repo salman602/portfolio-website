@@ -6,7 +6,7 @@ import Project from '../Project/Project';
 import './Projects.css'
 
 const Projects = () => {
-    const [projects] = useProjects()
+    const [projects] = useProjects();
 
     return (
         <div style={{ backgroundColor: "#F6F2ED" }} className="py-5">
