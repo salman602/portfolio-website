@@ -1,0 +1,9 @@
+.services{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.services h4, p{
+    text-align: justify;
+}

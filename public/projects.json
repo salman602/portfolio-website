@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "title": "BAGGIES",
+        "type": "Niche E-commerce website",
+        "tags": [
+            "E-commerce",
+            "Business"
+        ],
+        "screenshots": [
+            "https://i.ibb.co/jgFkXh7/baggies-website-project-web-app-home-imresizer.png",
+            "https://i.ibb.co/SVx03WK/baggies-website-project-web-app-dashboard-myorders-1.png",
+            "https://i.ibb.co/9nnrcrK/baggies-website-project-web-app-dashboard-myorders-2-imresizer.png",
+            "https://i.ibb.co/tXRBxFJ/baggies-website-project-web-app-dashboard-myorders-3.png",
+            "https://i.ibb.co/1Q9VJMQ/baggies-website-project-web-app-dashboard-myorders-4.png",
+            "https://i.ibb.co/rM74XsD/baggies-website-project-web-app-dashboard-myorders-6.png",
+            "https://i.ibb.co/nL18DKp/baggies-website-project-web-app-dashboard-myorders-7.png",
+            "https://i.ibb.co/NpPfxFy/baggies-website-project-web-app-dashboard-myorders.png"
+        ],
+        "features": [
+            "Developed a bag selling responsive website where normal users can see home & explore page. Implement login system with email/ password & Google. To log in using email user must sign up first. Only logged-in users can order products.",
+            "Logged-in users have a dashboard where users can manage their orders, give reviews & pay for their orders. An admin can add a product, manage products, make an admin, manage all orders & change order status.",
+            "The technology used: React, material UI, firebase, react-router, node, express, MongoDB, etc."
+        ]
+    },
+    {
+        "id": "2",
+        "title": "TravelCove",
+        "type": "Travel Booking website",
+        "tags": [
+            "Booking",
+            "Business"
+        ],
+        "screenshots": [
+            "https://i.ibb.co/NVNCQ3D/travelcove-assignment-firebase-web-app-imresizer-1.png",
+            "https://i.ibb.co/7NJd4Yc/travelcove-assignment-firebase-web-app-1-1.png",
+            "https://i.ibb.co/PTXCtFP/travelcove-assignment-firebase-web-app-2-1.png"
+        ],
+        "features": [
+            "Build a single-page traveling application where users can see many tour packages for different places. Before exploring for a package users need to log in with email/ password or google.",
+            "Registered users can log in with an email/ password. Logged-in users see bookings & if want can cancel the booking.",
+            "The technology used: React, react-bootstrap, firebase, react-router, node, express, MongoDB, etc & packages such as Axios, react hook form, react router hash link etc."
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Medicare",
+        "type": "Medical Hospital website",
+        "tags": [
+            "Hospital",
+            "Service"
+        ],
+        "screenshots": [
+            "https://i.ibb.co/S0y3hGR/medical-care-firebase-web-app-imresizer.png",
+            "https://i.ibb.co/gwCznYB/medical-care-firebase-web-app-1.png",
+            "https://i.ibb.co/sKkpWk9/medical-care-firebase-web-app-2.png",
+            "https://i.ibb.co/7Yy5bLG/medical-care-firebase-web-app-3-1.png",
+            "https://i.ibb.co/z22dpQN/medical-care-firebase-web-app-4.png"
+        ],
+        "features": [
+            "Created a SPA medical care website where users can see many types of medical services. To get an appointment for specific services, users must logged-in.",
+            "Implement an authentication system with email/ password and google sign-in. To log in with an email/ password, users must sign up first.",
+            "The technology used: React, react-bootstrap, firebase, react-router etc."
+        ]
+    }
+]

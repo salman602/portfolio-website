@@ -26,9 +26,9 @@ const Contact = () => {
                 <Row className="justify-content-center align-items-center">
                     <Col sm={12} md={5}>
                         <h2 className="py-3">Keep in Touch</h2>
-                        <h4><FontAwesomeIcon icon={faMobile} style={{ color: 'aqua' }} /> Phone</h4>
+                        <h5><FontAwesomeIcon icon={faMobile} style={{ color: '#FEA770', fontSize: '2rem', marginRight: '0.5rem' }} /> Phone</h5>
                         <p>Mobile: <strong>+880 1679-012046</strong></p>
-                        <h4><FontAwesomeIcon icon={faEnvelopeOpenText} style={{ color: 'aqua' }} /> Email</h4>
+                        <h5><FontAwesomeIcon icon={faEnvelopeOpenText} style={{ color: '#FEA770', fontSize: '2rem', marginRight: '0.5rem' }} /> Email</h5>
                         <p>dev.salmanrahman@gmail.com</p>
                     </Col>
                     <Col sm={12} md={7} className="d-flex justify-content-center align-items-center">
@@ -43,7 +43,7 @@ const Contact = () => {
                                     name="name" />
                                 <input className="w-100 p-2 my-3" {...register("email")} type="email" placeholder="Email*" name="email" /> <br />
                                 <textarea className="w-100 p-2 mb-2" type="text" {...register("message")} placeholder="Message*" name="message" /> <br />
-                                <Button className="rounded-pill" type="submit">Send <FontAwesomeIcon icon={faPaperPlane} /></Button>
+                                <Button className="rounded-pill button_color" variant="outline" type="submit">Send <FontAwesomeIcon icon={faPaperPlane} /></Button>
                             </form>
                         </div>
                     </Col>

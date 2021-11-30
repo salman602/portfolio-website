@@ -1,0 +1,41 @@
+.project{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    padding: 40px 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.project:hover{
+    height: 650px;
+}
+
+.img_box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project_img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.project_info{
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-450px);
+    transition: 0.4s;
+    opacity: 0;
+    
+}
+
+.project:hover .project_info{
+    opacity: 1;
+    transform: translateY(-80px);
+}
